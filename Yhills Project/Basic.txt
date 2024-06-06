@@ -1,0 +1,17 @@
+HAND CLASS
+It is a super class that forms the basis of all hands including the decks
+ATTRIBUTES- CARDS
+METHODS- clear(), add(card)
+
+DECK CLASS
+It is a sub class that is specialized type of hand class
+ATTRIBUTES- Cards inherited from hand class
+METHODS- populate(), shuffle(), deal(hands, per_hand=1)
+
+
+For suit in CardSuit
+   For rank in CardRank
+      SET card to Card with rank and suit
+      CALL cards.add with card
+    END For
+END For
